@@ -9,4 +9,19 @@ import org.openqa.selenium.support.FindBy;
 
 public class RegisterPage extends TestBase {
     private static org.apache.log4j.Logger LOGGER = Logger.getLogger(HomePage.class);
+
+    @FindBy(linkText = "Sign Up")
+    private WebElement clickSignUp;
+
+    @FindBy(id = "email")
+    private WebElement putEmail;
+
+
+    public void createAccount(){
+        clickSignUp.click();
+        putEmail.sendKeys("merajrahat18@gmail.com",Keys.RETURN);
+        sleepFor(4);
+    }
+
 }
+
