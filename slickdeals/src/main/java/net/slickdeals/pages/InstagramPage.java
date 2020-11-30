@@ -9,4 +9,5 @@ import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 
 public class InstagramPage extends TestBase{
+    private static org.apache.log4j.Logger LOGGER = Logger.getLogger(HomePage.class);
 }

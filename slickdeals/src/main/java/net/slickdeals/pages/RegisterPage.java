@@ -8,4 +8,5 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class RegisterPage extends TestBase {
+    private static org.apache.log4j.Logger LOGGER = Logger.getLogger(HomePage.class);
 }
