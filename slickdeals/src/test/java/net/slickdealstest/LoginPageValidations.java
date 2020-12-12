@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class LoginPageValidations extends TestBase {
 
 
-    @Test (enabled = false)
+    @Test
     public void validateUserAbleToLogIn(){
         LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
         loginPage.userAbleToLogIn();

@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class HomePageValidations extends TestBase {
 
 
-    @Test
+    @Test (enabled = false)
     public void validateTypeInSearchBox(){
         HomePage homePage = PageFactory.initElements(driver, HomePage.class);
         homePage.clickOnSearchBar();

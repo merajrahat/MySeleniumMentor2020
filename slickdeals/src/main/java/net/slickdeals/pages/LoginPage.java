@@ -41,9 +41,9 @@ public class LoginPage extends TestBase {
     public void userAbleToLogIn(){
         userLogIn.click();
         sleepFor(3);
-        userEmail.sendKeys("merajrahat@yahoo.com", Keys.RETURN);
+        userEmail.sendKeys("automationtester73@yahoo.com", Keys.RETURN);
         sleepFor(3);
-        userPassword.sendKeys("Kkkrrish@18", Keys.RETURN);
+        userPassword.sendKeys("america123", Keys.RETURN);
         sleepFor(2);
 
 
