@@ -19,7 +19,7 @@ public class RegisterPage extends TestBase {
 
     public void createAccount(){
         clickSignUp.click();
-        putEmail.sendKeys("merajrahat18@gmail.com",Keys.RETURN);
+        putEmail.sendKeys("",Keys.RETURN);
         sleepFor(4);
     }
 

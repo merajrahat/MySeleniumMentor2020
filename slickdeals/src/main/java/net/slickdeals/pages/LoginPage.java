@@ -58,7 +58,7 @@ public class LoginPage extends TestBase {
         sleepFor(3);
         clickResetPassword.click();
         sleepFor(3);
-        userEmail.sendKeys("merajrahat@yahoo.com",Keys.RETURN);
+        userEmail.sendKeys("automationtester73@yahoo.com",Keys.RETURN);
         sleepFor(2);
 
     }
@@ -67,7 +67,7 @@ public class LoginPage extends TestBase {
         userAbleToLogIn();
         sleepFor(2);
 
-        WebElement user = driver.findElement(By.linkText("merajrahat"));
+        WebElement user = driver.findElement(By.linkText("Automation_Tester"));
 
         Actions actions = new Actions(driver);
         actions.moveToElement(user).build().perform();

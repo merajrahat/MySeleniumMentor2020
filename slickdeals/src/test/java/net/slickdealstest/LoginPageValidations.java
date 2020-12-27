@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class LoginPageValidations extends TestBase {
 
 
-    @Test
+    @Test (enabled = false)
     public void validateUserAbleToLogIn(){
         LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
         loginPage.userAbleToLogIn();
@@ -21,7 +21,7 @@ public class LoginPageValidations extends TestBase {
         loginPage.userAbleResetPassword();
     }
 
-    @Test (enabled = false)
+    @Test
     public void validateUserAbleToLogOutAfterLoggedIn(){
         LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
         loginPage.userAbleToLogOutAfterLoggedIn();
